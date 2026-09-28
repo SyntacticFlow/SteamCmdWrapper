@@ -7,4 +7,6 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <Import Project="..\Development.Build.targets" Condition="Exists('..\Development.Build.targets')" />
+
 </Project>
